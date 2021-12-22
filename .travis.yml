@@ -17,7 +17,7 @@ after_success:
   - docker build -t gmk/multi-worker ./worker
   # Log in to docker cli
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
-  - docker push gmk/multi-client
-  - docker push gmk/multi-nginx
-  - docker push gmk/multi-server
-  - docker push gmk/multi-worker
+  - docker push georgemathewkunnathoor/multi-client
+  - docker push georgemathewkunnathoor/multi-nginx
+  - docker push gmgeorgemathewkunnathoork/multi-server
+  - docker push georgemathewkunnathoor/multi-worker
